@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #111;
+    color: white;
+}
+
+
+
+
+
+
+
+header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+h1 {
+    font-size: 200px;
+    margin-bottom: 20px;
+}
+
+h1 span {
+    color: #4db8ff;
+}
+
+
+.inpBox {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.selectSort {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+}
+
+.searchBtn {
+    padding: 8px 15px;
+    border-radius: 6px;
+    border: none;
+    background: #4db8ff;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+.kartochki {
+    width: 95%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+
+
+.card {
+    background: #1c1c1c;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.6);
+}
+
+
+
+.card-image {
+  justify-content: center;
+    width: 80%;
+    height: 200px;
+    overflow: hidden;
+}
+
+
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+  text-align:center ;
+    font-size: 18px;
+    margin-bottom: 10px;
+    height: 45px;
+    overflow: hidden;
+    color: orange;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #bbb;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 14px;
+    text-align: center;   
+}
+
+
+.daniy{
+  text-align: center;
+}
